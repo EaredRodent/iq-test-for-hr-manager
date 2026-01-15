@@ -129,7 +129,7 @@ input[type="text"] {
             background: #2A7B9B;
             background: linear-gradient(135deg, rgba(42, 123, 155, 0.10) 0%, rgba(232, 137, 224, 0.10) 66%, rgba(137, 232, 232, 0.10) 88%);
             height: 100px;
-            font-family: "Noto Color Emoji", sans-serif;
+            font-family: -apple-system, "Noto Color Emoji", sans-serif;
         }
     }
 
