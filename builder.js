@@ -12,10 +12,10 @@ fs.readFile('./src/index.html', 'utf8', (err, rawHtml) => {
             console.log('index.css generated')
         })
         fs.copyFile('./src/success.jpg', './public/success.jpg', (err) => {
-            console.log('index.css generated')
+            console.log('success.jpg generated')
         })
         fs.copyFile('./src/favicon.ico', './public/favicon.ico', (err) => {
-            console.log('index.css generated')
+            console.log('favicon.ico generated')
         })
     });
 });
