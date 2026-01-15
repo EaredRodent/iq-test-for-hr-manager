@@ -14,16 +14,27 @@ body {
 }
 
 main {
+    height: 100vh;
+    overflow: auto;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 
 form {
-    max-width: 550px;
     display: flex;
     flex-flow: column;
-    padding: 0 20px 40px 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+}
+
+@media (min-width: 600px) {
+    form {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        max-width: 550px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 }
 
 section#test, section#timeIsUp, section#thanks {
@@ -144,11 +155,12 @@ input[type="text"] {
     font-family: "Orbitron", monospace;
     align-self: center;
     user-select: none;
+    transform: translateY(0);
 }
 
 #copyright {
     margin-top: 40px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     align-self: center;
 }
 
