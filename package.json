@@ -1,0 +1,11 @@
+{
+  "name": "iq-test-for-hr-manager",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "builder.js",
+  "scripts": {
+    "build": "node builder.js"
+  },
+  "private": true
+}

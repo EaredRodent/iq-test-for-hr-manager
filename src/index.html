@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета для смоук тестирования HR-менеджеров.</title>
+    <meta name="description" content="У кандидата есть некоторые уточнения по вашей вакансии! «ЮккисГолдМайнБир» — компания №1 на рынке профильного анкетирования для HR-менеджеров. Наша анкета — ваш ключ к успеху: усиливает доверие соискателей, сужает воронку подбора и на 73% повышает конверсию в целевых кандидатов!">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <meta property="og:title" content="Анкета для смоук тестирования HR-менеджеров." />
+    <meta property="og:site_name" content="ЮккисГолдМайнБир — Компания №1"/>
+    <meta property="og:description" content="У кандидата есть некоторые уточнения по вашей вакансии!" />
+    <meta property="og:image" content="success.jpg" />
+</head>
+<body>
+
+
+<main>
+    <form>
+        <h1>
+            Анкета для смоук тестирования HR-менеджеров.
+        </h1>
+        <section id="test">
+            <p>
+                Ой! Что это? <span id="address"></span> здесь для прохождения на следующий этап. У кандидата есть некоторые уточнения по вашей вакансии!<br><br>
+                «ЮккисГолдМайнБир» — компания №1 на рынке профильного анкетирования для HR-менеджеров.<br>
+                Наша анкета — ваш ключ к успеху: усиливает доверие соискателей, сужает воронку подбора и на 73% повышает конверсию в целевых кандидатов!<br><br>
+                На заполнение анкеты уйдет не более двух минут! Будьте внимательны в своих ответах!<br>
+            </p>
+
+            <div id="timer">
+                <time id="time"></time>
+            </div>
+
+            <article>{{SSR_CONTENT_TEST}}</article>
+            <button id="submit" type="submit">Отправить!</button>
+        </section>
+        <section id="timeIsUp">
+            <p>Время вышло!<br><br>Большое спасибо за интерес к анкете! К сожалению, сейчас мы не готовы пригласить вас на следующий этап. Ценим ваше внимание и будем рады получать ваши ответы на другие анкеты.</p>
+        </section>
+        <section id="thanks">
+            <p>Большое спасибо за интерес к анкете! К сожалению, сейчас мы не готовы пригласить вас на следующий этап. Ценим ваше внимание и будем рады получать ваши ответы на другие анкеты.</p>
+        </section>
+        <div id="copyright">© 2026 <a href="https://t.me/earedrodent" target="_blank">ЮккисГолдМайнБир — Компания №1</a>. Some rights reserved</div>
+    </form>
+</main>
+</body>
+</html>
